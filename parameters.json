@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "adminlocal"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "dnsLabelPrefix": {
+            "value": "rdjrgermanier"
+        },
+        "publicIpAddressName": {
+            "value": "rdsgw-pip"
+        },
+        "publicIpResourceGroupName": {
+            "value": "swissxp-rg-jrgermanier"
+        },
+        "publicIPsku": {
+            "value": "Basic"
+        },
+        "publicIPAllocationMethod": {
+            "value": "Dynamic"
+        },
+        "DomainName": {
+            "value": "jrgermanier.local"
+        },
+        "numberOfRdshInstances": {
+            "value": 1
+        },
+        "ADVMSize": {
+            "value": "Standard_B2ms"
+        },
+        "RDSHVMSize": {
+            "value": "Standard_D8s_v3"
+        },
+        "brokerVmVMSize": {
+            "value": "Standard_B2s"
+        },
+        "gatewayVmVMSize": {
+            "value": "Standard_B2s"
+        },
+        "adVmName": {
+            "value": "azchnjrg01"
+        },
+        "RDSHName": {
+            "value": "azchnjrg02"
+        },
+        "brokervmName": {
+            "value": "azchnjrg03"
+        },
+        "gatewayvmName": {
+            "value": "azchnjrg04"
+        },
+        "location": {
+            "value": "switzerlandnorth"
+        }
+    }
+}
